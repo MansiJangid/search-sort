@@ -10,9 +10,13 @@ Java implementations of linear search, binary search, bubble sort, quick sort, a
 
 ```java
 
-int\[] arr = {5, 3, 8, 4, 2};
+int[] arr = {5, 3, 8, 4, 2};
 
 Algorithms.quickSort(arr);
 
 int index = Algorithms.binarySearch(arr, 8);
+
+### Run Demo
+```bash
+mvn exec:java -Dexec.mainClass=com.example.algo.Demo
 
